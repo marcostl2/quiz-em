@@ -1,0 +1,12 @@
+// Definindo o tipo para os temas e palavras
+interface Themes {
+  [key: string]: string[];
+}
+
+
+ // Definição de temas e suas palavras correspondentes
+  const themes: Themes = {
+    Animais: ['Cachorro', 'Gato', 'Elefante', 'Leão', 'Tigre'],
+    Frutas: ['Maçã', 'Banana', 'Manga', 'Laranja', 'Abacaxi'],
+    Cores: ['Vermelho', 'Azul', 'Verde', 'Amarelo', 'Laranja']
+  };
