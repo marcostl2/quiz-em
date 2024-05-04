@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import MemoryGame from './components/MemoryGame';
 
 function App() {
